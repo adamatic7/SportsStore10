@@ -29,8 +29,7 @@ else
                 <td>@item.Name</td>
                 <td class="text-right">@item.Price.ToString("c")</td>
                 <td class="text-center">
-                    <form asp-action="Delete" m-		Model	{Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[SportsStore.Models.Product]}	System.Collections.Generic.IEnumerable<SportsStore.Models.Product> {Microsoft.EntityFrameworkCore.Internal.InternalDbSet<SportsStore.Models.Product>}
-ethod="post">
+                    <form asp-action="Delete" method="post">
                         <a asp-action="Edit" class="btn btn-sm btn-warning"
                            asp-route-productId="@item.ProductID">
                             Edit
